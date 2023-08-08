@@ -1,0 +1,341 @@
+exp: 1 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.261    | 0.389    |
+category        | iou      | acc      
+person          | 0.587    | 0.899    
+rider           | 0.000    | 0.000    
+car             | 0.863    | 0.935    
+truck           | 0.066    | 0.088    
+bus             | 0.000    | 0.000    
+train           | 0.132    | 0.694    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.437    | 0.491    
+
+exp: 2 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.261    | 0.342    |
+category        | iou      | acc      
+person          | 0.603    | 0.901    
+rider           | 0.004    | 0.004    
+car             | 0.851    | 0.961    
+truck           | 0.023    | 0.025    
+bus             | 0.004    | 0.004    
+train           | 0.145    | 0.306    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.458    | 0.533    
+
+exp: 3 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.247    | 0.356    |
+category        | iou      | acc      
+person          | 0.547    | 0.830    
+rider           | 0.068    | 0.081    
+car             | 0.848    | 0.931    
+truck           | 0.118    | 0.188    
+bus             | 0.007    | 0.007    
+train           | 0.085    | 0.487    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.306    | 0.325    
+
+exp: 4 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.289    | 0.375    |
+category        | iou      | acc      
+person          | 0.546    | 0.812    
+rider           | 0.000    | 0.000    
+car             | 0.873    | 0.955    
+truck           | 0.116    | 0.152    
+bus             | 0.325    | 0.547    
+train           | 0.031    | 0.033    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.423    | 0.497    
+
+exp: 5 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.269    | 0.350    |
+category        | iou      | acc      
+person          | 0.545    | 0.865    
+rider           | 0.000    | 0.000    
+car             | 0.874    | 0.965    
+truck           | 0.106    | 0.131    
+bus             | 0.109    | 0.126    
+train           | 0.133    | 0.277    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.382    | 0.433    
+
+exp: 6 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.275    | 0.420    |
+category        | iou      | acc      
+person          | 0.445    | 0.593    
+rider           | 0.137    | 0.327    
+car             | 0.858    | 0.913    
+truck           | 0.153    | 0.432    
+bus             | 0.000    | 0.000    
+train           | 0.143    | 0.478    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.461    | 0.617    
+
+exp: 7 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.288    | 0.380    |
+category        | iou      | acc      
+person          | 0.608    | 0.876    
+rider           | 0.000    | 0.000    
+car             | 0.874    | 0.944    
+truck           | 0.087    | 0.153    
+bus             | 0.105    | 0.145    
+train           | 0.125    | 0.331    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.504    | 0.591    
+
+exp: 8 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.291    | 0.426    |
+category        | iou      | acc      
+person          | 0.598    | 0.850    
+rider           | 0.005    | 0.005    
+car             | 0.849    | 0.924    
+truck           | 0.137    | 0.220    
+bus             | 0.003    | 0.003    
+train           | 0.172    | 0.686    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.561    | 0.717    
+
+exp: 9 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.297    | 0.409    |
+category        | iou      | acc      
+person          | 0.601    | 0.896    
+rider           | 0.000    | 0.000    
+car             | 0.868    | 0.940    
+truck           | 0.164    | 0.234    
+bus             | 0.000    | 0.000    
+train           | 0.132    | 0.488    
+motorcycle      | 0.048    | 0.057    
+bicycle         | 0.564    | 0.656    
+
+exp: 10 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.215    | 0.330    |
+category        | iou      | acc      
+person          | 0.504    | 0.838    
+rider           | 0.000    | 0.000    
+car             | 0.871    | 0.920    
+truck           | 0.175    | 0.700    
+bus             | 0.000    | 0.000    
+train           | 0.016    | 0.019    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.155    | 0.167    
+
+exp: 11 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.260    | 0.324    |
+category        | iou      | acc      
+person          | 0.618    | 0.886    
+rider           | 0.004    | 0.004    
+car             | 0.859    | 0.974    
+truck           | 0.020    | 0.020    
+bus             | 0.020    | 0.020    
+train           | 0.048    | 0.074    
+motorcycle      | 0.004    | 0.004    
+bicycle         | 0.505    | 0.612    
+
+exp: 12 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.252    | 0.373    |
+category        | iou      | acc      
+person          | 0.495    | 0.859    
+rider           | 0.000    | 0.000    
+car             | 0.844    | 0.886    
+truck           | 0.129    | 0.347    
+bus             | 0.124    | 0.204    
+train           | 0.139    | 0.386    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.285    | 0.303    
+
+exp: 13 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.280    | 0.382    |
+category        | iou      | acc      
+person          | 0.520    | 0.825    
+rider           | 0.000    | 0.000    
+car             | 0.845    | 0.899    
+truck           | 0.134    | 0.271    
+bus             | 0.211    | 0.397    
+train           | 0.067    | 0.092    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.463    | 0.569    
+
+exp: 14 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.280    | 0.421    |
+category        | iou      | acc      
+person          | 0.586    | 0.857    
+rider           | 0.000    | 0.000    
+car             | 0.858    | 0.919    
+truck           | 0.107    | 0.262    
+bus             | 0.000    | 0.000    
+train           | 0.174    | 0.767    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.518    | 0.567    
+
+exp: 15 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.234    | 0.300    |
+category        | iou      | acc      
+person          | 0.540    | 0.913    
+rider           | 0.000    | 0.000    
+car             | 0.863    | 0.970    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.062    | 0.082    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.404    | 0.435    
+
+exp: 16 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.266    | 0.371    |
+category        | iou      | acc      
+person          | 0.539    | 0.779    
+rider           | 0.001    | 0.001    
+car             | 0.855    | 0.922    
+truck           | 0.165    | 0.480    
+bus             | 0.049    | 0.052    
+train           | 0.088    | 0.154    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.431    | 0.579    
+
+exp: 17 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.304    | 0.436    |
+category        | iou      | acc      
+person          | 0.586    | 0.812    
+rider           | 0.000    | 0.000    
+car             | 0.877    | 0.937    
+truck           | 0.136    | 0.210    
+bus             | 0.171    | 0.247    
+train           | 0.157    | 0.678    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.507    | 0.606    
+
+exp: 18 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.294    | 0.376    |
+category        | iou      | acc      
+person          | 0.573    | 0.777    
+rider           | 0.060    | 0.076    
+car             | 0.849    | 0.958    
+truck           | 0.159    | 0.281    
+bus             | 0.000    | 0.000    
+train           | 0.159    | 0.282    
+motorcycle      | 0.001    | 0.001    
+bicycle         | 0.549    | 0.635    
+
+exp: 19 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.289    | 0.376    |
+category        | iou      | acc      
+person          | 0.616    | 0.860    
+rider           | 0.105    | 0.123    
+car             | 0.864    | 0.942    
+truck           | 0.159    | 0.409    
+bus             | 0.000    | 0.000    
+train           | 0.001    | 0.001    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.571    | 0.670    
+
+exp: 20 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 3
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.277    | 0.389    |
+category        | iou      | acc      
+person          | 0.594    | 0.838    
+rider           | 0.000    | 0.000    
+car             | 0.883    | 0.936    
+truck           | 0.136    | 0.330    
+bus             | 0.000    | 0.000    
+train           | 0.108    | 0.351    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.499    | 0.656    
+
+Average_miou: 0.271    | STD_miou: 0.022   

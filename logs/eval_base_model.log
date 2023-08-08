@@ -1,0 +1,83 @@
+ -> Executing script evaluate_erfnet.py
+++++++++++++++++++++++ INIT VALIDATION ++++++++++++++++++++++++
+Using dataset
+   cityscapes with split None
+There are 500 validation items
+  
+Validating classes up to train set
+   1
+Saving metrics to
+   /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set1/eval_cityscapes_task_to_val1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++ OPTIONS +++++++++++++++++++++++++++
+batch_size              6
+city                    False
+cluster_mode            None
+crop_height             192
+crop_width              640
+dataset                 cityscapes
+dataset_split           None
+eval_out_dir            None
+height                  512
+hyperparameter          False
+lambda_GS               1
+learning_rate           0.0005
+load_best_model         False
+load_model_name         erfnet_incremental_set1
+log_frequency           250
+mean_entropy            False
+model_name              erfnet_incremental_set1
+multi_exp               0
+n_files                 None
+no_cuda                 False
+num_epochs              50
+num_exp                 20
+num_pseudo_labels       10
+num_shot                1
+num_workers             0
+pred_frequency          25
+pred_wout_blend         False
+probs_frequency         25
+pseudo_label_mode       False
+save_best_model         False
+save_entropy_to_disk    False
+save_evaluation_results False
+save_frequency          10
+save_pred_segs          False
+save_pred_to_disk       False
+save_probs_to_disk      False
+scales                  [0]
+sigmoid                 False
+single_set              False
+task_to_val             1
+teachers                None
+temp                    1
+train_base_model        True
+train_set               1
+val_frequency           1
+validate                False
+video_frames            [0]
+weight_decay            0.0003
+weights_epoch           199
+weights_init            pretrained
+width                   1024
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-> Computing predictions with input size 512x1024
+-> Evaluating
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set1/models/weights_199
+base model: 
+ model_name: erfnet_incremental_set1 
+ trainnig set: 1
+ task_to_val: 1
+miou     | maccuracy | 
+0.861    | 0.906    |
+category        | iou      | acc      
+road            | 0.972    | 0.989    
+sidewalk        | 0.797    | 0.873    
+vegetation      | 0.974    | 0.987    
+terrain         | 0.599    | 0.696    
+sky             | 0.960    | 0.987    
+
+Average_miou: 0.861    | STD_miou: 0.000   
+
+-> Done!

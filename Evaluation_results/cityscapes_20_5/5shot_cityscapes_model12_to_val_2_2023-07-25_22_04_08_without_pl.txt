@@ -1,0 +1,301 @@
+exp: 1 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.252    | 0.314    |
+category        | iou      | acc      
+building        | 0.868    | 0.959    
+wall            | 0.123    | 0.192    
+fence           | 0.134    | 0.204    
+pole            | 0.382    | 0.528    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.003    | 0.003    
+
+exp: 2 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.241    | 0.288    |
+category        | iou      | acc      
+building        | 0.878    | 0.982    
+wall            | 0.028    | 0.031    
+fence           | 0.209    | 0.290    
+pole            | 0.332    | 0.425    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+
+exp: 3 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.189    | 0.235    |
+category        | iou      | acc      
+building        | 0.858    | 0.981    
+wall            | 0.081    | 0.097    
+fence           | 0.187    | 0.328    
+pole            | 0.006    | 0.006    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+
+exp: 4 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.258    | 0.309    |
+category        | iou      | acc      
+building        | 0.878    | 0.976    
+wall            | 0.163    | 0.187    
+fence           | 0.159    | 0.223    
+pole            | 0.345    | 0.468    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.001    | 0.001    
+
+exp: 5 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.246    | 0.319    |
+category        | iou      | acc      
+building        | 0.869    | 0.966    
+wall            | 0.302    | 0.574    
+fence           | 0.046    | 0.053    
+pole            | 0.189    | 0.244    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.068    | 0.080    
+
+exp: 6 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.276    | 0.357    |
+category        | iou      | acc      
+building        | 0.877    | 0.953    
+wall            | 0.284    | 0.413    
+fence           | 0.136    | 0.270    
+pole            | 0.355    | 0.505    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.002    | 0.002    
+
+exp: 7 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.243    | 0.302    |
+category        | iou      | acc      
+building        | 0.867    | 0.981    
+wall            | 0.325    | 0.461    
+fence           | 0.232    | 0.334    
+pole            | 0.029    | 0.031    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.004    | 0.004    
+
+exp: 8 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.263    | 0.321    |
+category        | iou      | acc      
+building        | 0.882    | 0.971    
+wall            | 0.071    | 0.082    
+fence           | 0.144    | 0.179    
+pole            | 0.343    | 0.527    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.138    | 0.167    
+
+exp: 9 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.287    | 0.336    |
+category        | iou      | acc      
+building        | 0.886    | 0.982    
+wall            | 0.162    | 0.193    
+fence           | 0.103    | 0.113    
+pole            | 0.346    | 0.452    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.227    | 0.279    
+
+exp: 10 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.241    | 0.304    |
+category        | iou      | acc      
+building        | 0.870    | 0.973    
+wall            | 0.168    | 0.196    
+fence           | 0.234    | 0.464    
+pole            | 0.133    | 0.150    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.038    | 0.039    
+
+exp: 11 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.180    | 0.233    |
+category        | iou      | acc      
+building        | 0.861    | 0.973    
+wall            | 0.158    | 0.347    
+fence           | 0.032    | 0.048    
+pole            | 0.018    | 0.019    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.009    | 0.009    
+
+exp: 12 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.263    | 0.314    |
+category        | iou      | acc      
+building        | 0.883    | 0.978    
+wall            | 0.213    | 0.283    
+fence           | 0.093    | 0.123    
+pole            | 0.383    | 0.495    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.006    | 0.006    
+
+exp: 13 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.248    | 0.299    |
+category        | iou      | acc      
+building        | 0.883    | 0.978    
+wall            | 0.049    | 0.051    
+fence           | 0.141    | 0.179    
+pole            | 0.398    | 0.567    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.019    | 0.021    
+
+exp: 14 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.207    | 0.256    |
+category        | iou      | acc      
+building        | 0.863    | 0.989    
+wall            | 0.260    | 0.410    
+fence           | 0.119    | 0.134    
+pole            | 0.001    | 0.001    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+
+exp: 15 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.271    | 0.382    |
+category        | iou      | acc      
+building        | 0.863    | 0.922    
+wall            | 0.215    | 0.406    
+fence           | 0.160    | 0.310    
+pole            | 0.357    | 0.623    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.029    | 0.034    
+
+exp: 16 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.219    | 0.263    |
+category        | iou      | acc      
+building        | 0.866    | 0.987    
+wall            | 0.199    | 0.261    
+fence           | 0.211    | 0.290    
+pole            | 0.039    | 0.041    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+
+exp: 17 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.276    | 0.379    |
+category        | iou      | acc      
+building        | 0.864    | 0.928    
+wall            | 0.155    | 0.336    
+fence           | 0.195    | 0.380    
+pole            | 0.390    | 0.572    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.050    | 0.056    
+
+exp: 18 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.195    | 0.242    |
+category        | iou      | acc      
+building        | 0.861    | 0.986    
+wall            | 0.245    | 0.393    
+fence           | 0.039    | 0.047    
+pole            | 0.026    | 0.027    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+
+exp: 19 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.216    | 0.268    |
+category        | iou      | acc      
+building        | 0.856    | 0.970    
+wall            | 0.024    | 0.028    
+fence           | 0.198    | 0.376    
+pole            | 0.129    | 0.140    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.086    | 0.091    
+
+exp: 20 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.287    | 0.342    |
+category        | iou      | acc      
+building        | 0.883    | 0.975    
+wall            | 0.202    | 0.290    
+fence           | 0.081    | 0.093    
+pole            | 0.373    | 0.501    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.183    | 0.195    
+
+Average_miou: 0.243    | STD_miou: 0.031   

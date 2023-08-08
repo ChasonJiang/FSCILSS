@@ -1,0 +1,281 @@
+exp: 1 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.786    | 0.828    |
+category        | iou      | acc      
+road            | 0.951    | 0.991    
+sidewalk        | 0.664    | 0.728    
+vegetation      | 0.966    | 0.981    
+terrain         | 0.393    | 0.451    
+sky             | 0.954    | 0.988    
+
+exp: 2 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.749    | 0.787    |
+category        | iou      | acc      
+road            | 0.951    | 0.991    
+sidewalk        | 0.648    | 0.730    
+vegetation      | 0.964    | 0.982    
+terrain         | 0.233    | 0.246    
+sky             | 0.949    | 0.988    
+
+exp: 3 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.770    | 0.808    |
+category        | iou      | acc      
+road            | 0.952    | 0.991    
+sidewalk        | 0.664    | 0.740    
+vegetation      | 0.966    | 0.984    
+terrain         | 0.313    | 0.337    
+sky             | 0.953    | 0.988    
+
+exp: 4 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.758    | 0.794    |
+category        | iou      | acc      
+road            | 0.945    | 0.993    
+sidewalk        | 0.618    | 0.677    
+vegetation      | 0.966    | 0.983    
+terrain         | 0.307    | 0.329    
+sky             | 0.955    | 0.987    
+
+exp: 5 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.769    | 0.808    |
+category        | iou      | acc      
+road            | 0.949    | 0.992    
+sidewalk        | 0.646    | 0.710    
+vegetation      | 0.966    | 0.981    
+terrain         | 0.335    | 0.369    
+sky             | 0.951    | 0.988    
+
+exp: 6 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.763    | 0.807    |
+category        | iou      | acc      
+road            | 0.947    | 0.991    
+sidewalk        | 0.634    | 0.700    
+vegetation      | 0.962    | 0.977    
+terrain         | 0.331    | 0.376    
+sky             | 0.938    | 0.990    
+
+exp: 7 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.779    | 0.819    |
+category        | iou      | acc      
+road            | 0.949    | 0.992    
+sidewalk        | 0.646    | 0.706    
+vegetation      | 0.965    | 0.982    
+terrain         | 0.381    | 0.428    
+sky             | 0.952    | 0.987    
+
+exp: 8 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.767    | 0.806    |
+category        | iou      | acc      
+road            | 0.952    | 0.991    
+sidewalk        | 0.659    | 0.731    
+vegetation      | 0.965    | 0.983    
+terrain         | 0.310    | 0.338    
+sky             | 0.951    | 0.988    
+
+exp: 9 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.778    | 0.817    |
+category        | iou      | acc      
+road            | 0.950    | 0.992    
+sidewalk        | 0.651    | 0.712    
+vegetation      | 0.965    | 0.984    
+terrain         | 0.372    | 0.411    
+sky             | 0.950    | 0.988    
+
+exp: 10 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.770    | 0.811    |
+category        | iou      | acc      
+road            | 0.951    | 0.989    
+sidewalk        | 0.663    | 0.740    
+vegetation      | 0.966    | 0.983    
+terrain         | 0.324    | 0.354    
+sky             | 0.945    | 0.987    
+
+exp: 11 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.778    | 0.816    |
+category        | iou      | acc      
+road            | 0.947    | 0.993    
+sidewalk        | 0.630    | 0.681    
+vegetation      | 0.966    | 0.983    
+terrain         | 0.398    | 0.435    
+sky             | 0.951    | 0.989    
+
+exp: 12 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.788    | 0.830    |
+category        | iou      | acc      
+road            | 0.952    | 0.990    
+sidewalk        | 0.667    | 0.737    
+vegetation      | 0.966    | 0.983    
+terrain         | 0.404    | 0.452    
+sky             | 0.950    | 0.988    
+
+exp: 13 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.778    | 0.817    |
+category        | iou      | acc      
+road            | 0.952    | 0.990    
+sidewalk        | 0.669    | 0.751    
+vegetation      | 0.966    | 0.981    
+terrain         | 0.345    | 0.374    
+sky             | 0.955    | 0.986    
+
+exp: 14 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.744    | 0.784    |
+category        | iou      | acc      
+road            | 0.945    | 0.991    
+sidewalk        | 0.624    | 0.679    
+vegetation      | 0.960    | 0.984    
+terrain         | 0.258    | 0.276    
+sky             | 0.933    | 0.989    
+
+exp: 15 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.765    | 0.805    |
+category        | iou      | acc      
+road            | 0.950    | 0.990    
+sidewalk        | 0.651    | 0.727    
+vegetation      | 0.963    | 0.981    
+terrain         | 0.313    | 0.338    
+sky             | 0.946    | 0.988    
+
+exp: 16 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.793    | 0.836    |
+category        | iou      | acc      
+road            | 0.953    | 0.990    
+sidewalk        | 0.674    | 0.752    
+vegetation      | 0.966    | 0.981    
+terrain         | 0.421    | 0.472    
+sky             | 0.950    | 0.988    
+
+exp: 17 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.769    | 0.809    |
+category        | iou      | acc      
+road            | 0.949    | 0.992    
+sidewalk        | 0.646    | 0.714    
+vegetation      | 0.964    | 0.980    
+terrain         | 0.334    | 0.368    
+sky             | 0.952    | 0.989    
+
+exp: 18 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.771    | 0.810    |
+category        | iou      | acc      
+road            | 0.950    | 0.991    
+sidewalk        | 0.645    | 0.711    
+vegetation      | 0.963    | 0.983    
+terrain         | 0.342    | 0.376    
+sky             | 0.953    | 0.987    
+
+exp: 19 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.766    | 0.804    |
+category        | iou      | acc      
+road            | 0.953    | 0.991    
+sidewalk        | 0.670    | 0.747    
+vegetation      | 0.965    | 0.983    
+terrain         | 0.290    | 0.310    
+sky             | 0.950    | 0.988    
+
+exp: 20 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 1
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.801    | 0.843    |
+category        | iou      | acc      
+road            | 0.954    | 0.990    
+sidewalk        | 0.675    | 0.747    
+vegetation      | 0.967    | 0.982    
+terrain         | 0.453    | 0.511    
+sky             | 0.955    | 0.985    
+
+Average_miou: 0.772    | STD_miou: 0.013   

@@ -1,0 +1,14 @@
+base model: 
+ model_name: erfnet_incremental_set1 
+ trainnig set: 1
+ task_to_val: 1
+miou     | maccuracy | 
+0.861    | 0.906    |
+category        | iou      | acc      
+road            | 0.972    | 0.989    
+sidewalk        | 0.797    | 0.873    
+vegetation      | 0.974    | 0.987    
+terrain         | 0.599    | 0.696    
+sky             | 0.960    | 0.987    
+
+Average_miou: 0.861    | STD_miou: 0.000   

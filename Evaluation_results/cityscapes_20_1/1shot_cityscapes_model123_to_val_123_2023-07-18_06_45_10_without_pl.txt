@@ -1,0 +1,561 @@
+exp: 1 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.203    | 0.270    |
+category        | iou      | acc      
+road            | 0.912    | 0.986    
+sidewalk        | 0.584    | 0.674    
+vegetation      | 0.736    | 0.936    
+terrain         | 0.000    | 0.000    
+sky             | 0.490    | 0.982    
+building        | 0.597    | 0.676    
+wall            | 0.000    | 0.000    
+fence           | 0.013    | 0.015    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.051    | 0.058    
+rider           | 0.000    | 0.000    
+car             | 0.481    | 0.804    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 2 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.199    | 0.270    |
+category        | iou      | acc      
+road            | 0.914    | 0.983    
+sidewalk        | 0.565    | 0.673    
+vegetation      | 0.692    | 0.956    
+terrain         | 0.000    | 0.000    
+sky             | 0.474    | 0.985    
+building        | 0.560    | 0.612    
+wall            | 0.000    | 0.000    
+fence           | 0.030    | 0.037    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.004    | 0.005    
+rider           | 0.000    | 0.000    
+car             | 0.542    | 0.876    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 3 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.228    | 0.293    |
+category        | iou      | acc      
+road            | 0.923    | 0.987    
+sidewalk        | 0.581    | 0.682    
+vegetation      | 0.757    | 0.903    
+terrain         | 0.096    | 0.098    
+sky             | 0.619    | 0.979    
+building        | 0.653    | 0.772    
+wall            | 0.000    | 0.000    
+fence           | 0.035    | 0.039    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.007    | 0.008    
+rider           | 0.000    | 0.000    
+car             | 0.532    | 0.838    
+truck           | 0.001    | 0.001    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.132    | 0.265    
+
+exp: 4 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.208    | 0.272    |
+category        | iou      | acc      
+road            | 0.916    | 0.990    
+sidewalk        | 0.557    | 0.637    
+vegetation      | 0.741    | 0.949    
+terrain         | 0.020    | 0.020    
+sky             | 0.538    | 0.982    
+building        | 0.605    | 0.686    
+wall            | 0.000    | 0.000    
+fence           | 0.029    | 0.039    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.024    | 0.025    
+rider           | 0.000    | 0.000    
+car             | 0.513    | 0.847    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.001    | 0.001    
+
+exp: 5 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.205    | 0.275    |
+category        | iou      | acc      
+road            | 0.925    | 0.990    
+sidewalk        | 0.598    | 0.684    
+vegetation      | 0.749    | 0.924    
+terrain         | 0.000    | 0.000    
+sky             | 0.536    | 0.979    
+building        | 0.652    | 0.758    
+wall            | 0.000    | 0.000    
+fence           | 0.051    | 0.091    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.097    | 0.491    
+rider           | 0.000    | 0.000    
+car             | 0.281    | 0.309    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 6 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.227    | 0.299    |
+category        | iou      | acc      
+road            | 0.924    | 0.985    
+sidewalk        | 0.604    | 0.696    
+vegetation      | 0.740    | 0.928    
+terrain         | 0.000    | 0.000    
+sky             | 0.576    | 0.983    
+building        | 0.622    | 0.706    
+wall            | 0.000    | 0.000    
+fence           | 0.069    | 0.203    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.154    | 0.284    
+rider           | 0.000    | 0.000    
+car             | 0.598    | 0.823    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.024    | 0.067    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 7 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.219    | 0.282    |
+category        | iou      | acc      
+road            | 0.922    | 0.989    
+sidewalk        | 0.597    | 0.694    
+vegetation      | 0.721    | 0.940    
+terrain         | 0.000    | 0.000    
+sky             | 0.576    | 0.985    
+building        | 0.638    | 0.728    
+wall            | 0.000    | 0.000    
+fence           | 0.059    | 0.161    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.061    | 0.069    
+rider           | 0.000    | 0.000    
+car             | 0.594    | 0.790    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 8 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.212    | 0.277    |
+category        | iou      | acc      
+road            | 0.903    | 0.990    
+sidewalk        | 0.535    | 0.607    
+vegetation      | 0.729    | 0.940    
+terrain         | 0.104    | 0.105    
+sky             | 0.497    | 0.986    
+building        | 0.624    | 0.716    
+wall            | 0.000    | 0.000    
+fence           | 0.078    | 0.184    
+pole            | 0.001    | 0.001    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.000    | 0.000    
+rider           | 0.000    | 0.000    
+car             | 0.553    | 0.733    
+truck           | 0.000    | 0.000    
+bus             | 0.003    | 0.004    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 9 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.214    | 0.283    |
+category        | iou      | acc      
+road            | 0.901    | 0.981    
+sidewalk        | 0.569    | 0.676    
+vegetation      | 0.749    | 0.898    
+terrain         | 0.000    | 0.000    
+sky             | 0.602    | 0.980    
+building        | 0.621    | 0.725    
+wall            | 0.000    | 0.000    
+fence           | 0.045    | 0.081    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.002    | 0.002    
+rider           | 0.000    | 0.000    
+car             | 0.565    | 0.784    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.010    | 0.244    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 10 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.204    | 0.271    |
+category        | iou      | acc      
+road            | 0.882    | 0.992    
+sidewalk        | 0.478    | 0.559    
+vegetation      | 0.739    | 0.930    
+terrain         | 0.000    | 0.000    
+sky             | 0.577    | 0.980    
+building        | 0.616    | 0.684    
+wall            | 0.000    | 0.000    
+fence           | 0.082    | 0.208    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.004    | 0.004    
+rider           | 0.000    | 0.000    
+car             | 0.501    | 0.791    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 11 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.193    | 0.263    |
+category        | iou      | acc      
+road            | 0.905    | 0.992    
+sidewalk        | 0.469    | 0.522    
+vegetation      | 0.730    | 0.946    
+terrain         | 0.000    | 0.000    
+sky             | 0.503    | 0.988    
+building        | 0.558    | 0.615    
+wall            | 0.000    | 0.000    
+fence           | 0.043    | 0.070    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.002    | 0.002    
+rider           | 0.000    | 0.000    
+car             | 0.461    | 0.848    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.004    | 0.011    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 12 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.209    | 0.276    |
+category        | iou      | acc      
+road            | 0.916    | 0.981    
+sidewalk        | 0.574    | 0.674    
+vegetation      | 0.729    | 0.943    
+terrain         | 0.005    | 0.005    
+sky             | 0.530    | 0.985    
+building        | 0.614    | 0.691    
+wall            | 0.000    | 0.000    
+fence           | 0.018    | 0.022    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.022    | 0.023    
+rider           | 0.000    | 0.000    
+car             | 0.560    | 0.914    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 13 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.223    | 0.284    |
+category        | iou      | acc      
+road            | 0.917    | 0.988    
+sidewalk        | 0.552    | 0.621    
+vegetation      | 0.747    | 0.902    
+terrain         | 0.000    | 0.000    
+sky             | 0.579    | 0.983    
+building        | 0.663    | 0.801    
+wall            | 0.000    | 0.000    
+fence           | 0.079    | 0.176    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.084    | 0.100    
+rider           | 0.000    | 0.000    
+car             | 0.623    | 0.817    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 14 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.211    | 0.278    |
+category        | iou      | acc      
+road            | 0.881    | 0.989    
+sidewalk        | 0.475    | 0.595    
+vegetation      | 0.728    | 0.894    
+terrain         | 0.000    | 0.000    
+sky             | 0.502    | 0.961    
+building        | 0.634    | 0.714    
+wall            | 0.000    | 0.000    
+fence           | 0.074    | 0.123    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.125    | 0.181    
+rider           | 0.000    | 0.000    
+car             | 0.588    | 0.806    
+truck           | 0.006    | 0.011    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 15 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.211    | 0.273    |
+category        | iou      | acc      
+road            | 0.913    | 0.986    
+sidewalk        | 0.534    | 0.611    
+vegetation      | 0.735    | 0.943    
+terrain         | 0.016    | 0.016    
+sky             | 0.571    | 0.988    
+building        | 0.636    | 0.728    
+wall            | 0.000    | 0.000    
+fence           | 0.028    | 0.039    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.005    | 0.005    
+rider           | 0.000    | 0.000    
+car             | 0.569    | 0.877    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 16 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.222    | 0.291    |
+category        | iou      | acc      
+road            | 0.910    | 0.989    
+sidewalk        | 0.508    | 0.589    
+vegetation      | 0.753    | 0.904    
+terrain         | 0.002    | 0.002    
+sky             | 0.531    | 0.982    
+building        | 0.662    | 0.777    
+wall            | 0.000    | 0.000    
+fence           | 0.057    | 0.091    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.186    | 0.458    
+rider           | 0.000    | 0.000    
+car             | 0.608    | 0.741    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.000    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 17 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.207    | 0.275    |
+category        | iou      | acc      
+road            | 0.901    | 0.973    
+sidewalk        | 0.549    | 0.625    
+vegetation      | 0.711    | 0.949    
+terrain         | 0.093    | 0.094    
+sky             | 0.515    | 0.988    
+building        | 0.605    | 0.676    
+wall            | 0.000    | 0.000    
+fence           | 0.053    | 0.085    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.000    | 0.000    
+rider           | 0.000    | 0.000    
+car             | 0.508    | 0.832    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.001    | 0.002    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 18 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.217    | 0.286    |
+category        | iou      | acc      
+road            | 0.906    | 0.988    
+sidewalk        | 0.523    | 0.591    
+vegetation      | 0.746    | 0.911    
+terrain         | 0.000    | 0.000    
+sky             | 0.508    | 0.982    
+building        | 0.630    | 0.734    
+wall            | 0.000    | 0.000    
+fence           | 0.081    | 0.152    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.122    | 0.200    
+rider           | 0.000    | 0.000    
+car             | 0.595    | 0.798    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.019    | 0.086    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+exp: 19 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.224    | 0.305    |
+category        | iou      | acc      
+road            | 0.884    | 0.981    
+sidewalk        | 0.514    | 0.582    
+vegetation      | 0.679    | 0.943    
+terrain         | 0.241    | 0.253    
+sky             | 0.490    | 0.983    
+building        | 0.503    | 0.548    
+wall            | 0.000    | 0.000    
+fence           | 0.096    | 0.295    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.131    | 0.172    
+rider           | 0.000    | 0.000    
+car             | 0.530    | 0.764    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.000    | 0.001    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.181    | 0.279    
+
+exp: 20 
+ model_name: erfnet_incremental_set123 
+ trainnig set: 123
+ task_to_val: 123
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.214    | 0.283    |
+category        | iou      | acc      
+road            | 0.907    | 0.990    
+sidewalk        | 0.578    | 0.704    
+vegetation      | 0.723    | 0.951    
+terrain         | 0.000    | 0.000    
+sky             | 0.622    | 0.974    
+building        | 0.580    | 0.647    
+wall            | 0.000    | 0.000    
+fence           | 0.052    | 0.068    
+pole            | 0.000    | 0.000    
+traffic light   | 0.000    | 0.000    
+traffic sign    | 0.000    | 0.000    
+person          | 0.107    | 0.136    
+rider           | 0.000    | 0.000    
+car             | 0.484    | 0.715    
+truck           | 0.000    | 0.000    
+bus             | 0.000    | 0.000    
+train           | 0.011    | 0.193    
+motorcycle      | 0.000    | 0.000    
+bicycle         | 0.000    | 0.000    
+
+Average_miou: 0.213    | STD_miou: 0.009   

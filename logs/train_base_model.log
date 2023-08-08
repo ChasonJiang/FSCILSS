@@ -1,0 +1,295 @@
+ -> Executing script train_erfnet_static.py
+++++++++++++++++++++++ INIT TRAINING ++++++++++++++++++++++++++
+Using dataset:
+   cityscapes with split None
+There are 956 training items and 109 validation items
+
+Training model named:
+   erfnet_incremental_set1
+Models and tensorboard events files are saved to:
+   /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set1
+Training is using:
+   cuda
+Training takes place on train set:
+   1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++ OPTIONS +++++++++++++++++++++++++++
+batch_size              6
+city                    True
+cluster_mode            None
+crop_height             192
+crop_width              640
+dataset                 cityscapes
+dataset_split           None
+eval_out_dir            None
+height                  512
+hyperparameter          False
+lambda_GS               1
+learning_rate           0.0005
+load_best_model         False
+load_model_name         None
+log_frequency           250
+mean_entropy            False
+model_name              erfnet_incremental_set1
+multi_exp               0
+n_files                 None
+no_cuda                 False
+num_epochs              200
+num_exp                 20
+num_pseudo_labels       10
+num_shot                1
+num_workers             0
+pred_frequency          25
+pred_wout_blend         False
+probs_frequency         25
+pseudo_label_mode       False
+save_best_model         False
+save_entropy_to_disk    False
+save_evaluation_results False
+save_frequency          10
+save_pred_segs          False
+save_pred_to_disk       False
+save_probs_to_disk      False
+scales                  [0]
+sigmoid                 False
+single_set              False
+task_to_val             0
+teachers                None
+temp                    1
+train_set               1
+val_frequency           1
+validate                False
+video_frames            [0]
+weight_decay            0.0003
+weights_epoch           None
+weights_init            pretrained
+width                   1024
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Training
+epoch   0 | batch      0 | examples/s:   4.8 | loss: 1.64861| meaniou: 0.08464| meanacc: 0.22026
+Training
+epoch   1 | batch      0 | examples/s:  24.3 | loss: 0.41910| meaniou: 0.44071| meanacc: 0.52577
+Training
+epoch   2 | batch      0 | examples/s:  27.7 | loss: 0.31085| meaniou: 0.41489| meanacc: 0.55480
+Training
+epoch   3 | batch      0 | examples/s:  27.6 | loss: 0.17778| meaniou: 0.56489| meanacc: 0.65775
+Training
+epoch   4 | batch      0 | examples/s:  27.4 | loss: 0.09215| meaniou: 0.65217| meanacc: 0.68204
+Training
+epoch   5 | batch      0 | examples/s:  27.5 | loss: 0.14969| meaniou: 0.70243| meanacc: 0.77457
+Training
+epoch   6 | batch      0 | examples/s:  27.5 | loss: 0.19511| meaniou: 0.72638| meanacc: 0.79679
+Training
+epoch   7 | batch      0 | examples/s:  27.3 | loss: 0.09257| meaniou: 0.76915| meanacc: 0.83818
+Training
+epoch   8 | batch      0 | examples/s:  28.1 | loss: 0.09717| meaniou: 0.72527| meanacc: 0.75438
+Training
+epoch   9 | batch      0 | examples/s:  24.1 | loss: 0.09867| meaniou: 0.72545| meanacc: 0.77131
+Training
+epoch  10 | batch      0 | examples/s:  27.0 | loss: 1.17876| meaniou: 0.31839| meanacc: 0.74552
+Training
+epoch  11 | batch      0 | examples/s:  26.8 | loss: 0.07322| meaniou: 0.73650| meanacc: 0.76445
+Training
+epoch  12 | batch      0 | examples/s:  27.7 | loss: 0.13227| meaniou: 0.82701| meanacc: 0.87261
+epoch  12 | batch     92 | examples/s:  25.5 | loss: 0.18374| meaniou: 0.74838| meanacc: 0.88322
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch  25 | batch     25 | examples/s:  23.9 | loss: 0.11875| meaniou: 0.82285| meanacc: 0.88187
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch  37 | batch    117 | examples/s:  27.3 | loss: 0.11537| meaniou: 0.85849| meanacc: 0.90286
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch  50 | batch     50 | examples/s:  27.6 | loss: 0.16834| meaniou: 0.67677| meanacc: 0.90326
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch  62 | batch    142 | examples/s:  25.6 | loss: 0.09043| meaniou: 0.68642| meanacc: 0.75013
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch  75 | batch     75 | examples/s:  27.8 | loss: 0.06141| meaniou: 0.71929| meanacc: 0.93048
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch  88 | batch      8 | examples/s:  27.9 | loss: 0.05886| meaniou: 0.74971| meanacc: 0.78372
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch 100 | batch    100 | examples/s:  27.6 | loss: 0.07307| meaniou: 0.76627| meanacc: 0.79097
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch 113 | batch     33 | examples/s:  26.5 | loss: 0.10080| meaniou: 0.72801| meanacc: 0.94205
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch 125 | batch    125 | examples/s:  27.3 | loss: 0.07235| meaniou: 0.93260| meanacc: 0.96229
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch 138 | batch     58 | examples/s:  27.5 | loss: 0.07880| meaniou: 0.91792| meanacc: 0.96061
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch 150 | batch    150 | examples/s:  27.7 | loss: 0.08112| meaniou: 0.87824| meanacc: 0.91374
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch 163 | batch     83 | examples/s:  27.6 | loss: 0.03536| meaniou: 0.75227| meanacc: 0.98052
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch 176 | batch     16 | examples/s:  27.9 | loss: 0.06734| meaniou: 0.87659| meanacc: 0.93257
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+epoch 188 | batch    108 | examples/s:  26.9 | loss: 0.02577| meaniou: 0.85539| meanacc: 0.88916
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training
+Training

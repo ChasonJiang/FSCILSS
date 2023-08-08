@@ -1,0 +1,8 @@
+stage1:
+road, sidewalk, vegetation, terrain, sky
+
+stage2:
+building, wall, fence, pole, traffic light, traffic sign
+
+stage3:
+person, rider, car, truck, bus, train, motorcycle, bicycle

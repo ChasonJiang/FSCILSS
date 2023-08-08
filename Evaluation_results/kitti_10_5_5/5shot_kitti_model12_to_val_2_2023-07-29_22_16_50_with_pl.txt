@@ -1,0 +1,111 @@
+exp: 1 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.863    | 0.929    |
+category        | iou      | acc      
+building        | 0.900    | 0.940    
+car             | 0.826    | 0.917    
+
+exp: 2 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.687    | 0.853    |
+category        | iou      | acc      
+building        | 0.721    | 0.730    
+car             | 0.652    | 0.975    
+
+exp: 3 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.861    | 0.936    |
+category        | iou      | acc      
+building        | 0.894    | 0.914    
+car             | 0.828    | 0.958    
+
+exp: 4 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.844    | 0.922    |
+category        | iou      | acc      
+building        | 0.882    | 0.918    
+car             | 0.805    | 0.926    
+
+exp: 5 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.816    | 0.885    |
+category        | iou      | acc      
+building        | 0.875    | 0.970    
+car             | 0.758    | 0.800    
+
+exp: 6 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.845    | 0.930    |
+category        | iou      | acc      
+building        | 0.879    | 0.897    
+car             | 0.810    | 0.963    
+
+exp: 7 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.883    | 0.948    |
+category        | iou      | acc      
+building        | 0.912    | 0.927    
+car             | 0.855    | 0.969    
+
+exp: 8 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.870    | 0.933    |
+category        | iou      | acc      
+building        | 0.905    | 0.943    
+car             | 0.836    | 0.924    
+
+exp: 9 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.629    | 0.818    |
+category        | iou      | acc      
+building        | 0.656    | 0.667    
+car             | 0.602    | 0.969    
+
+exp: 10 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: True
+miou     | maccuracy | 
+0.806    | 0.893    |
+category        | iou      | acc      
+building        | 0.857    | 0.919    
+car             | 0.755    | 0.867    
+
+Average_miou: 0.810    | STD_miou: 0.081   

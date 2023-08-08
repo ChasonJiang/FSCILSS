@@ -1,0 +1,677 @@
+ -> Executing script evaluate_erfnet.py
+++++++++++++++++++++++ INIT VALIDATION ++++++++++++++++++++++++
+Using dataset
+   kitti with split None
+There are 100 validation items
+  
+Validating classes up to train set
+   12
+Saving metrics to
+   /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/eval_kitti_task_to_val1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++ OPTIONS +++++++++++++++++++++++++++
+batch_size              6
+city                    False
+cluster_mode            None
+crop_height             192
+crop_width              640
+dataset                 kitti
+dataset_split           None
+eval_base_model         False
+eval_out_dir            None
+height                  512
+hyperparameter          False
+lambda_GS               1
+learning_rate           0.0005
+load_best_model         False
+load_model_name         erfnet_incremental_set12
+log_frequency           250
+mean_entropy            False
+model_name              erfnet_incremental_set12
+multi_exp               10
+n_files                 None
+no_cuda                 False
+num_epochs              50
+num_exp                 20
+num_pseudo_labels       10
+num_shot                5
+num_workers             0
+pred_frequency          25
+pred_wout_blend         False
+probs_frequency         25
+pseudo_label_mode       False
+save_best_model         False
+save_entropy_to_disk    False
+save_evaluation_results True
+save_frequency          10
+save_pred_segs          False
+save_pred_to_disk       False
+save_probs_to_disk      False
+scales                  [0]
+sigmoid                 False
+single_set              False
+task_to_val             1
+teachers                None
+temp                    1
+train_set               12
+val_frequency           1
+validate                False
+video_frames            [0]
+weight_decay            0.0003
+weights_epoch           199
+weights_init            pretrained
+width                   1024
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-> Computing predictions with input size 512x1024
+-> Evaluating
+-> Running expriment 1
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_1/weights_199
+-> Running expriment 2
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_2/weights_199
+-> Running expriment 3
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_3/weights_199
+-> Running expriment 4
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_4/weights_199
+-> Running expriment 5
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_5/weights_199
+-> Running expriment 6
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_6/weights_199
+-> Running expriment 7
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_7/weights_199
+-> Running expriment 8
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_8/weights_199
+-> Running expriment 9
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_9/weights_199
+-> Running expriment 10
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_10/weights_199
+exp: 1 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 1
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.667    | 0.737    |
+category        | iou      | acc      
+road            | 0.843    | 0.973    
+sidewalk        | 0.201    | 0.218    
+vegetation      | 0.880    | 0.964    
+terrain         | 0.543    | 0.577    
+sky             | 0.870    | 0.955    
+
+exp: 2 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 1
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.674    | 0.742    |
+category        | iou      | acc      
+road            | 0.849    | 0.981    
+sidewalk        | 0.153    | 0.166    
+vegetation      | 0.892    | 0.961    
+terrain         | 0.570    | 0.620    
+sky             | 0.905    | 0.982    
+
+exp: 3 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 1
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.638    | 0.714    |
+category        | iou      | acc      
+road            | 0.846    | 0.971    
+sidewalk        | 0.090    | 0.097    
+vegetation      | 0.871    | 0.961    
+terrain         | 0.501    | 0.541    
+sky             | 0.881    | 0.997    
+
+exp: 4 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 1
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.645    | 0.720    |
+category        | iou      | acc      
+road            | 0.840    | 0.963    
+sidewalk        | 0.165    | 0.182    
+vegetation      | 0.869    | 0.967    
+terrain         | 0.470    | 0.491    
+sky             | 0.879    | 0.997    
+
+exp: 5 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 1
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.655    | 0.733    |
+category        | iou      | acc      
+road            | 0.846    | 0.978    
+sidewalk        | 0.141    | 0.149    
+vegetation      | 0.887    | 0.951    
+terrain         | 0.528    | 0.590    
+sky             | 0.874    | 0.998    
+
+exp: 6 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 1
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.639    | 0.714    |
+category        | iou      | acc      
+road            | 0.816    | 0.977    
+sidewalk        | 0.113    | 0.125    
+vegetation      | 0.885    | 0.950    
+terrain         | 0.497    | 0.547    
+sky             | 0.886    | 0.972    
+
+exp: 7 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 1
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.613    | 0.698    |
+category        | iou      | acc      
+road            | 0.816    | 0.948    
+sidewalk        | 0.087    | 0.095    
+vegetation      | 0.851    | 0.952    
+terrain         | 0.472    | 0.498    
+sky             | 0.840    | 0.997    
+
+exp: 8 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 1
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.616    | 0.691    |
+category        | iou      | acc      
+road            | 0.835    | 0.973    
+sidewalk        | 0.059    | 0.064    
+vegetation      | 0.848    | 0.955    
+terrain         | 0.443    | 0.467    
+sky             | 0.895    | 0.996    
+
+exp: 9 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 1
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.641    | 0.720    |
+category        | iou      | acc      
+road            | 0.850    | 0.953    
+sidewalk        | 0.184    | 0.197    
+vegetation      | 0.848    | 0.965    
+terrain         | 0.463    | 0.487    
+sky             | 0.861    | 0.997    
+
+exp: 10 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 1
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.655    | 0.732    |
+category        | iou      | acc      
+road            | 0.841    | 0.958    
+sidewalk        | 0.121    | 0.132    
+vegetation      | 0.879    | 0.963    
+terrain         | 0.559    | 0.609    
+sky             | 0.877    | 0.997    
+
+Average_miou: 0.644    | STD_miou: 0.019   
+
+-> Done!
+ -> Executing script evaluate_erfnet.py
+++++++++++++++++++++++ INIT VALIDATION ++++++++++++++++++++++++
+Using dataset
+   kitti with split None
+There are 100 validation items
+  
+Validating classes up to train set
+   12
+Saving metrics to
+   /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/eval_kitti_task_to_val2
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++ OPTIONS +++++++++++++++++++++++++++
+batch_size              6
+city                    False
+cluster_mode            None
+crop_height             192
+crop_width              640
+dataset                 kitti
+dataset_split           None
+eval_base_model         False
+eval_out_dir            None
+height                  512
+hyperparameter          False
+lambda_GS               1
+learning_rate           0.0005
+load_best_model         False
+load_model_name         erfnet_incremental_set12
+log_frequency           250
+mean_entropy            False
+model_name              erfnet_incremental_set12
+multi_exp               10
+n_files                 None
+no_cuda                 False
+num_epochs              50
+num_exp                 20
+num_pseudo_labels       10
+num_shot                5
+num_workers             0
+pred_frequency          25
+pred_wout_blend         False
+probs_frequency         25
+pseudo_label_mode       False
+save_best_model         False
+save_entropy_to_disk    False
+save_evaluation_results True
+save_frequency          10
+save_pred_segs          False
+save_pred_to_disk       False
+save_probs_to_disk      False
+scales                  [0]
+sigmoid                 False
+single_set              False
+task_to_val             2
+teachers                None
+temp                    1
+train_set               12
+val_frequency           1
+validate                False
+video_frames            [0]
+weight_decay            0.0003
+weights_epoch           199
+weights_init            pretrained
+width                   1024
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-> Computing predictions with input size 512x1024
+-> Evaluating
+-> Running expriment 1
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_1/weights_199
+-> Running expriment 2
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_2/weights_199
+-> Running expriment 3
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_3/weights_199
+-> Running expriment 4
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_4/weights_199
+-> Running expriment 5
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_5/weights_199
+-> Running expriment 6
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_6/weights_199
+-> Running expriment 7
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_7/weights_199
+-> Running expriment 8
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_8/weights_199
+-> Running expriment 9
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_9/weights_199
+-> Running expriment 10
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_10/weights_199
+exp: 1 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.742    | 0.843    |
+category        | iou      | acc      
+building        | 0.816    | 0.920    
+car             | 0.668    | 0.767    
+
+exp: 2 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.887    | 0.945    |
+category        | iou      | acc      
+building        | 0.916    | 0.942    
+car             | 0.858    | 0.948    
+
+exp: 3 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.694    | 0.840    |
+category        | iou      | acc      
+building        | 0.746    | 0.792    
+car             | 0.642    | 0.888    
+
+exp: 4 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.709    | 0.826    |
+category        | iou      | acc      
+building        | 0.785    | 0.885    
+car             | 0.633    | 0.766    
+
+exp: 5 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.839    | 0.916    |
+category        | iou      | acc      
+building        | 0.880    | 0.924    
+car             | 0.797    | 0.908    
+
+exp: 6 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.766    | 0.887    |
+category        | iou      | acc      
+building        | 0.810    | 0.839    
+car             | 0.722    | 0.936    
+
+exp: 7 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.696    | 0.859    |
+category        | iou      | acc      
+building        | 0.730    | 0.737    
+car             | 0.662    | 0.981    
+
+exp: 8 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.747    | 0.882    |
+category        | iou      | acc      
+building        | 0.787    | 0.805    
+car             | 0.706    | 0.959    
+
+exp: 9 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.808    | 0.891    |
+category        | iou      | acc      
+building        | 0.861    | 0.932    
+car             | 0.755    | 0.850    
+
+exp: 10 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 2
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.754    | 0.876    |
+category        | iou      | acc      
+building        | 0.802    | 0.841    
+car             | 0.706    | 0.912    
+
+Average_miou: 0.764    | STD_miou: 0.060   
+
+-> Done!
+ -> Executing script evaluate_erfnet.py
+++++++++++++++++++++++ INIT VALIDATION ++++++++++++++++++++++++
+Using dataset
+   kitti with split None
+There are 100 validation items
+  
+Validating classes up to train set
+   12
+Saving metrics to
+   /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/eval_kitti_task_to_val12
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++ OPTIONS +++++++++++++++++++++++++++
+batch_size              6
+city                    False
+cluster_mode            None
+crop_height             192
+crop_width              640
+dataset                 kitti
+dataset_split           None
+eval_base_model         False
+eval_out_dir            None
+height                  512
+hyperparameter          False
+lambda_GS               1
+learning_rate           0.0005
+load_best_model         False
+load_model_name         erfnet_incremental_set12
+log_frequency           250
+mean_entropy            False
+model_name              erfnet_incremental_set12
+multi_exp               10
+n_files                 None
+no_cuda                 False
+num_epochs              50
+num_exp                 20
+num_pseudo_labels       10
+num_shot                5
+num_workers             0
+pred_frequency          25
+pred_wout_blend         False
+probs_frequency         25
+pseudo_label_mode       False
+save_best_model         False
+save_entropy_to_disk    False
+save_evaluation_results True
+save_frequency          10
+save_pred_segs          False
+save_pred_to_disk       False
+save_probs_to_disk      False
+scales                  [0]
+sigmoid                 False
+single_set              False
+task_to_val             12
+teachers                None
+temp                    1
+train_set               12
+val_frequency           1
+validate                False
+video_frames            [0]
+weight_decay            0.0003
+weights_epoch           199
+weights_init            pretrained
+width                   1024
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-> Computing predictions with input size 512x1024
+-> Evaluating
+-> Running expriment 1
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_1/weights_199
+-> Running expriment 2
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_2/weights_199
+-> Running expriment 3
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_3/weights_199
+-> Running expriment 4
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_4/weights_199
+-> Running expriment 5
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_5/weights_199
+-> Running expriment 6
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_6/weights_199
+-> Running expriment 7
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_7/weights_199
+-> Running expriment 8
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_8/weights_199
+-> Running expriment 9
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_9/weights_199
+-> Running expriment 10
+loading model from folder /home/white/Project/fscil/Checkpoints/erfnet/erfnet_incremental_set12/models/kitti_10_5/exp_10/weights_199
+exp: 1 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 12
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.608    | 0.713    |
+category        | iou      | acc      
+road            | 0.824    | 0.943    
+sidewalk        | 0.150    | 0.160    
+vegetation      | 0.817    | 0.933    
+terrain         | 0.526    | 0.562    
+sky             | 0.758    | 0.925    
+building        | 0.598    | 0.781    
+car             | 0.585    | 0.685    
+
+exp: 2 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 12
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.650    | 0.752    |
+category        | iou      | acc      
+road            | 0.831    | 0.950    
+sidewalk        | 0.111    | 0.116    
+vegetation      | 0.832    | 0.917    
+terrain         | 0.562    | 0.609    
+sky             | 0.851    | 0.937    
+building        | 0.713    | 0.862    
+car             | 0.648    | 0.871    
+
+exp: 3 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 12
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.512    | 0.645    |
+category        | iou      | acc      
+road            | 0.812    | 0.942    
+sidewalk        | 0.064    | 0.066    
+vegetation      | 0.738    | 0.947    
+terrain         | 0.497    | 0.537    
+sky             | 0.645    | 0.995    
+building        | 0.212    | 0.231    
+car             | 0.612    | 0.797    
+
+exp: 4 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 12
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.579    | 0.683    |
+category        | iou      | acc      
+road            | 0.793    | 0.953    
+sidewalk        | 0.140    | 0.171    
+vegetation      | 0.788    | 0.947    
+terrain         | 0.464    | 0.487    
+sky             | 0.751    | 0.995    
+building        | 0.621    | 0.673    
+car             | 0.500    | 0.552    
+
+exp: 5 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 12
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.603    | 0.711    |
+category        | iou      | acc      
+road            | 0.808    | 0.963    
+sidewalk        | 0.124    | 0.132    
+vegetation      | 0.792    | 0.912    
+terrain         | 0.536    | 0.587    
+sky             | 0.745    | 0.995    
+building        | 0.573    | 0.669    
+car             | 0.643    | 0.719    
+
+exp: 6 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 12
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.611    | 0.718    |
+category        | iou      | acc      
+road            | 0.793    | 0.966    
+sidewalk        | 0.095    | 0.099    
+vegetation      | 0.817    | 0.906    
+terrain         | 0.504    | 0.541    
+sky             | 0.822    | 0.927    
+building        | 0.637    | 0.770    
+car             | 0.612    | 0.814    
+
+exp: 7 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 12
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.557    | 0.696    |
+category        | iou      | acc      
+road            | 0.788    | 0.889    
+sidewalk        | 0.077    | 0.083    
+vegetation      | 0.788    | 0.931    
+terrain         | 0.465    | 0.491    
+sky             | 0.757    | 0.992    
+building        | 0.497    | 0.534    
+car             | 0.529    | 0.950    
+
+exp: 8 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 12
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.584    | 0.698    |
+category        | iou      | acc      
+road            | 0.808    | 0.953    
+sidewalk        | 0.055    | 0.060    
+vegetation      | 0.785    | 0.934    
+terrain         | 0.432    | 0.452    
+sky             | 0.805    | 0.986    
+building        | 0.570    | 0.619    
+car             | 0.634    | 0.880    
+
+exp: 9 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 12
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.604    | 0.713    |
+category        | iou      | acc      
+road            | 0.834    | 0.929    
+sidewalk        | 0.152    | 0.163    
+vegetation      | 0.785    | 0.940    
+terrain         | 0.459    | 0.483    
+sky             | 0.761    | 0.993    
+building        | 0.585    | 0.702    
+car             | 0.653    | 0.779    
+
+exp: 10 
+ model_name: erfnet_incremental_set12 
+ trainnig set: 12
+ task_to_val: 12
+ with_pseudo_label: False
+miou     | maccuracy | 
+0.585    | 0.700    |
+category        | iou      | acc      
+road            | 0.803    | 0.929    
+sidewalk        | 0.107    | 0.119    
+vegetation      | 0.775    | 0.944    
+terrain         | 0.537    | 0.591    
+sky             | 0.760    | 0.990    
+building        | 0.521    | 0.552    
+car             | 0.594    | 0.774    
+
+Average_miou: 0.589    | STD_miou: 0.035   
+
+-> Done!
