@@ -50,8 +50,7 @@ bash ./train.sh
 ```
 
 ## Pre-trained models
-<!-- You can download our pre-trained models here,and unzip to the project root directory. -->
-Coming soon
+You can download our pre-trained models [here](https://drive.google.com/file/d/1CcsAx7TZr6me3lTe0hoQIpDZr68LvwPW/view?usp=sharing),and unzip to the project root directory.
 
 
 ## License
