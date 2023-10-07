@@ -70,7 +70,7 @@ class DatasetGenerator():
         if return_filenames:
             return imgname_list,cityscapes_simple_Dataset(data_dict=dataset_dict,labels=labels,data_transforms=data_transforms,dataset=self.dataset)
         else:
-            cityscapes_simple_Dataset(data_dict=dataset_dict,labels=labels,data_transforms=data_transforms,dataset=self.dataset)
+            return cityscapes_simple_Dataset(data_dict=dataset_dict,labels=labels,data_transforms=data_transforms,dataset=self.dataset)
 
 
     def generate_with_pseudo_label(self, model, filename_dict, trainId_to_labels, labels, data_transforms,thres = 0.6):
