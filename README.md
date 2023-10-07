@@ -27,7 +27,7 @@ To run our code please proceed as follows:
 │   │   ├───test
 │   │   ├───train
 │   │   └───val
-│   └───leftImg8biWt
+│   └───leftImg8bit
 │       ├───test
 │       ├───train
 │       └───val
