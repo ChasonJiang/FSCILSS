@@ -249,7 +249,7 @@ class Cityscapes():
             sorted_dataset = self.load_json(sorted_file_path)
 
         save_dir=os.path.join(self.dataset_dir,"Extra","Subset")
-        if os.path.exists(save_dir):
+        if not os.path.exists(save_dir):
             os.mkdir(save_dir)
 
 
